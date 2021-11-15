@@ -1,0 +1,79 @@
+.button {
+  display: inline;
+}
+.enterCity {
+  position: relative;
+  left: 5px;
+}
+.weekName {
+  text-align: center;
+  padding: 2px 12px;
+  margin: 0;
+  border-color: white;
+  color: #94887b;
+}
+.dayEmoji {
+  text-align: center;
+  padding: 2px 12px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+.dayTemp {
+  text-align: center;
+  padding: 2px 12px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #94887b;
+}
+.mon {
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: rgb(147, 154, 169, 0.5);
+}
+.curruntCity {
+  text-decoration: underline;
+  text-align: right;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #908990;
+}
+.curruntTemp {
+  color: #908990;
+  text-align: right;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 35px;
+}
+.curruntEmoji {
+  padding: 0;
+  font-size: 40px;
+  margin: 0 auto;
+}
+p {
+  padding: 5px 5px;
+  margin: 0;
+}
+.card.current {
+  text-align: center;
+  border: 2px solid rgb(89, 106, 202);
+  border-radius: 60px;
+  background-color: rgb(89, 106, 202, 0.3);
+  padding: 10px 10px;
+  margin: 0 50px;
+}
+.rap {
+  background-color: rgb(255, 184, 81, 0.3);
+  border-color: rgb(255, 184, 81);
+  border-width: 2px;
+  padding: 5px 5px;
+  margin: 0 auto;
+}
+.container {
+  font-family: "Lora", serif;
+}
+h4 {
+  color: #908990;
+  text-align: center;
+  font-size: 25px;
+}
