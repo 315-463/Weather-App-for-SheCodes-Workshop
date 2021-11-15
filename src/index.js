@@ -55,7 +55,10 @@ citySearch.addEventListener("submit", addCity);
 function changeUnit(event) {
   event.preventDefault();
   let button = document.querySelector("#unitButton");
-  if (button.innerHTML === "to °F") {
+  if (
+    button.innerHTML === "to °F" ||
+    button.innerHTML === "\n                    to °F\n                  "
+  ) {
     let inputTemp = document.querySelector(".curruntTemp");
     let tempElement = Number(inputTemp.innerHTML.replace(" °C", ""));
     tempElement = Math.round(tempElement * 1.8 + 32);
